@@ -1,0 +1,39 @@
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        background: black;
+    }
+    
+    div {
+        height: 33.33vh;
+    }
+    
+    input[type=number] {
+        width: 100%;
+        height: 100%;
+        background: black;
+        color: white;
+        font-size: 10em;
+        text-align: cneter;
+        border: 0;
+        outline: none;
+    }
+    /*double colons are for psuedo element */
+    
+     ::placeholder {
+        color: #222222;
+    }
+    
+     ::-moz-placeholder {
+        /*firefox */
+        color: #222222;
+    }
+    
+     :-ms-input-placeholder {
+        /* edge */
+        color: #222222;
+    }
